@@ -1,0 +1,53 @@
+#cuadroh {
+  margin: 5px;
+  margin-left: 205px;
+  width: auto;
+  height: 35px;
+  background: #F7F9F9;
+  position: relative;
+}
+
+
+.button {
+    background-color: #EB7F00;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+#contenidoh {
+  margin: 5px;
+  margin-left: 205px;
+  width: auto;
+  height: 1200px;
+  background: #F7F9F9;
+
+}
+
+#contenidoh table, td, th {
+    border: 1px solid #bbb;
+    text-align: left;
+
+}
+
+#contenidoh table {
+  margin-top: 5px;
+  margin-left: 25px;
+  border-collapse: collapse;
+  width: 400px;
+  background:#F7F9F9;
+  border: 2px solid #79A39C;
+}
+
+
+#contenidoh th, td {
+    padding: 15px;
+}
+

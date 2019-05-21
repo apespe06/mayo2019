@@ -1,0 +1,93 @@
+.recuadro{
+  margin: 5px;
+  margin-left: 205px;
+  width: auto;
+  height: 900px;
+  background: #F7F9F9;   
+}
+
+.cuadro1{
+  margin: 5px;
+	margin-left: 25px;
+	width: 40%;	
+	height: auto;
+  background:#F7F9F9;
+  border: 2px solid #79A39C;
+  float: left;
+}
+
+.cuadro2{
+	width: 40%;
+	height: auto;
+	margin: 5px;
+  float: left;
+  background:#F7F9F9;
+  border: 2px solid #79A39C;
+}
+
+.datos{
+  width: 81%;
+  margin: 25px;
+  background:#F7F9F9;
+  border: 2px solid #79A39C;
+  clear: left;
+}
+
+.boton {
+    background-color: #EB7F00;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.recuadro label{
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.recuadro h3{
+  font-family: 'Acme', sans-serif;
+  margin-left: 12px;
+}
+
+.recuadro h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left: 12px;
+  padding: 5px;
+}
+
+
+.recuadro table, td,tr{
+  padding: 5px;
+
+}
+
+.recuadro input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-left: -1px;
+    margin-right: auto;
+    padding: 12px 20px  ;
+    width: 130px;
+    height: 25px;
+}
+
+.datos select{
+    margin-top: 15px;
+}

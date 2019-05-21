@@ -1,0 +1,47 @@
+create database preliminar;
+
+create table USUARIO(
+ID_USUARIO int not null auto_increment primary key,
+PATERNO VARCHAR(28) NOT NULL,
+MATERNO VARCHAR(28) NOT NULL,
+NOMBRE VARCHAR(28) NOT NULL,
+LOGIN varchar(9),
+PASSWD varchar(4)
+);
+
+
+create table EDUCANDO(
+ID_EDUCANDO int not null auto_increment primary key,
+RFC VARCHAR(13),
+NOMBRE VARCHAR(28),
+PATERNO VARCHAR(28),
+MATERNO VARCHAR(28),
+fechaRegistro date,
+MICROREGION VARCHAR(28),
+ETAPA VARCHAR(28)
+);
+
+
+create table EXPEDIENTE(
+ID_EXPEDIENTE int not null auto_increment primary key,
+RFC VARCHAR(13),
+FOTO longblob COMMENT 'IMAGENES DE USUARIO',
+REGISTROA longblob COMMENT 'IMAGENES DE USUARIO',
+REGISTROR longblob COMMENT 'IMAGENES DE USUARIO',
+ACTA longblob COMMENT 'IMAGENES DE USUARIO',
+CURP longblob COMMENT 'IMAGENES DE USUARIO',
+CERTIFICADO longblob COMMENT 'IMAGENES DE USUARIO',
+COMPROBANTE longblob COMMENT 'IMAGENES DE USUARIO'
+);
+
+
+INSERT INTO USUARIO(
+`PATERNO` ,
+`MATERNO` ,
+`NOMBRE` ,
+`LOGIN` ,
+`PASSWD` 
+)
+VALUES (
+'Alvarado', 'Pineda', 'Esperanza', 'espe06', '1234'
+);

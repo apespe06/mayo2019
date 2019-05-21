@@ -1,0 +1,44 @@
+.lista{
+	margin: 5px;
+  margin-left: 205px;
+  width: auto;
+  height: 1200px;
+  background: #F7F9F9;
+  position: relative;
+}
+
+.lista h2{
+	font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 15px 10px 0px 10px;
+
+}
+
+.lista table, td, th {
+    border: 1px solid #bbb;
+    text-align: left;
+    margin: 25px 25px;
+
+}
+
+.lista table {
+  margin: 10px, 25px;
+  border-collapse: collapse;
+  width: auto;
+  height: 10px;
+  background:#F7F9F9;
+  border: 2px solid #79A39C;
+}
+
+
+.lista th, td {
+    padding: 10px;
+}
+
+.lista label{
+  margin:  50px;
+
+  padding-top: : 50px;
+  font-family: 'Karla', sans-serif;
+}
